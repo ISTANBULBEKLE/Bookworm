@@ -11,6 +11,10 @@
 		75B0C5922873632C00BD4A72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C5912873632C00BD4A72 /* ContentView.swift */; };
 		75B0C5942873632D00BD4A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B0C5932873632D00BD4A72 /* Assets.xcassets */; };
 		75B0C5972873632D00BD4A72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B0C5962873632D00BD4A72 /* Preview Assets.xcassets */; };
+		75B0C59E2873747700BD4A72 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C59D2873747700BD4A72 /* DataController.swift */; };
+		75B0C5A1287375E100BD4A72 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C59F287375E100BD4A72 /* Bookworm.xcdatamodeld */; };
+		75B0C5A32873785D00BD4A72 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C5A22873785D00BD4A72 /* AddBookView.swift */; };
+		75B0C5A5287388EA00BD4A72 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C5A4287388EA00BD4A72 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		75B0C5912873632C00BD4A72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75B0C5932873632D00BD4A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B0C5962873632D00BD4A72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75B0C59D2873747700BD4A72 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		75B0C5A0287375E100BD4A72 /* Bookworm.xcdatamodal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodal.xcdatamodel; sourceTree = "<group>"; };
+		75B0C5A22873785D00BD4A72 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		75B0C5A4287388EA00BD4A72 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				75B0C58F2873632C00BD4A72 /* BookwormApp.swift */,
 				75B0C5912873632C00BD4A72 /* ContentView.swift */,
+				75B0C59D2873747700BD4A72 /* DataController.swift */,
+				75B0C59F287375E100BD4A72 /* Bookworm.xcdatamodeld */,
+				75B0C5A22873785D00BD4A72 /* AddBookView.swift */,
+				75B0C5A4287388EA00BD4A72 /* RatingView.swift */,
 				75B0C5932873632D00BD4A72 /* Assets.xcassets */,
 				75B0C5952873632D00BD4A72 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B0C5922873632C00BD4A72 /* ContentView.swift in Sources */,
+				75B0C59E2873747700BD4A72 /* DataController.swift in Sources */,
 				75B0C5902873632C00BD4A72 /* BookwormApp.swift in Sources */,
+				75B0C5A5287388EA00BD4A72 /* RatingView.swift in Sources */,
+				75B0C5A1287375E100BD4A72 /* Bookworm.xcdatamodeld in Sources */,
+				75B0C5A32873785D00BD4A72 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75B0C59F287375E100BD4A72 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75B0C5A0287375E100BD4A72 /* Bookworm.xcdatamodal.xcdatamodel */,
+			);
+			currentVersion = 75B0C5A0287375E100BD4A72 /* Bookworm.xcdatamodal.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 75B0C5842873632C00BD4A72 /* Project object */;
 }
