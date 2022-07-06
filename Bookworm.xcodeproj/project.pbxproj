@@ -15,6 +15,8 @@
 		75B0C5A1287375E100BD4A72 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C59F287375E100BD4A72 /* Bookworm.xcdatamodeld */; };
 		75B0C5A32873785D00BD4A72 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C5A22873785D00BD4A72 /* AddBookView.swift */; };
 		75B0C5A5287388EA00BD4A72 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C5A4287388EA00BD4A72 /* RatingView.swift */; };
+		75B0C5A72874759A00BD4A72 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C5A62874759A00BD4A72 /* EmojiRatingView.swift */; };
+		75B0C5A928747A6B00BD4A72 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0C5A828747A6B00BD4A72 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		75B0C5A0287375E100BD4A72 /* Bookworm.xcdatamodal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodal.xcdatamodel; sourceTree = "<group>"; };
 		75B0C5A22873785D00BD4A72 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		75B0C5A4287388EA00BD4A72 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		75B0C5A62874759A00BD4A72 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		75B0C5A828747A6B00BD4A72 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				75B0C58F2873632C00BD4A72 /* BookwormApp.swift */,
-				75B0C5912873632C00BD4A72 /* ContentView.swift */,
 				75B0C59D2873747700BD4A72 /* DataController.swift */,
-				75B0C59F287375E100BD4A72 /* Bookworm.xcdatamodeld */,
+				75B0C5912873632C00BD4A72 /* ContentView.swift */,
+				75B0C5A828747A6B00BD4A72 /* DetailView.swift */,
+				75B0C5A62874759A00BD4A72 /* EmojiRatingView.swift */,
 				75B0C5A22873785D00BD4A72 /* AddBookView.swift */,
 				75B0C5A4287388EA00BD4A72 /* RatingView.swift */,
+				75B0C59F287375E100BD4A72 /* Bookworm.xcdatamodeld */,
 				75B0C5932873632D00BD4A72 /* Assets.xcassets */,
 				75B0C5952873632D00BD4A72 /* Preview Content */,
 			);
@@ -150,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B0C5922873632C00BD4A72 /* ContentView.swift in Sources */,
+				75B0C5A928747A6B00BD4A72 /* DetailView.swift in Sources */,
 				75B0C59E2873747700BD4A72 /* DataController.swift in Sources */,
+				75B0C5A72874759A00BD4A72 /* EmojiRatingView.swift in Sources */,
 				75B0C5902873632C00BD4A72 /* BookwormApp.swift in Sources */,
 				75B0C5A5287388EA00BD4A72 /* RatingView.swift in Sources */,
 				75B0C5A1287375E100BD4A72 /* Bookworm.xcdatamodeld in Sources */,
